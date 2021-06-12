@@ -3,8 +3,11 @@ body{
   padding:0;
   box-sizing: border-box;
 }
+.logo{
+  padding-left:50px;
+}
 #main-content{
-  height:400px;
+  height:450px;
   background-image: url(Alcherstream/bg.png);
   width:100%;
 }
@@ -15,10 +18,12 @@ body{
 }
 #main-content h1{
   text-align: center;
-  color:white;
-  font-family: poppins;
-  font-weight: bolder;
-  font-size: 50px;
+  -webkit-font-family: poppins;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color:white;
+  -webkit-text-fill-color:transparent;
+  font-weight: 900;
+  font-size: 90px;
   text-transform: uppercase;
 
 }
@@ -62,9 +67,8 @@ h2{
 }
 .stickyicon-list{
   position:absolute;
-  top:140%;
-}
-.stickyicon-list{
+  top:150%;
+  padding-top:20px;
   display:flex;
   justify-content:space-around;
   background-color:grey;
@@ -89,4 +93,22 @@ h2{
 }
 .youtube:hover{
   color:black;
+}
+.user-circle{
+  color:white;
+  position:absolute;
+  top:1%;
+  left:95%;
+  font-size:30px;
+}
+.user-circle:hover{
+  opacity:0.5;
+}
+.copyright{
+  position:absolute;
+  top:165%;
+  left:45%;
+  color:white;
+  -webkit-font-family:gugi;
+  font-size:25px;
 }
